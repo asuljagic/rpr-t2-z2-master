@@ -7,7 +7,7 @@ public class Interval {
     private boolean pPripada, kPripada;
 
     public Interval(double pocTacka, double krajTacka, boolean pPripada, boolean kPripada) {
-        if(pocTacka > krajTacka) throw new IllegalArgumentException("Greska! Pocetna i krajnja tacka su iste");
+        if(pocTacka > krajTacka) throw new IllegalArgumentException("Greska! Pocetna tacka mora biti manja od krajnje");
         this.pocTacka = pocTacka;
         this.krajTacka = krajTacka;
         this.pPripada = pPripada;
