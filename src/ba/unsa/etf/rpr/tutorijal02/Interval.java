@@ -59,7 +59,7 @@ public class Interval {
                 }
         return this;
     }
-
+    //staticka metoda sa dva intervala
     public static Interval intersect(Interval prvi, Interval drugi){
         Interval n = new Interval();
         if (prvi.pocTacka < drugi.pocTacka && prvi.krajTacka < drugi.krajTacka)
