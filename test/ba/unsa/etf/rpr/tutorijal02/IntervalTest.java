@@ -1,5 +1,8 @@
 package ba.unsa.etf.rpr.tutorijal02;
 
+import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 class IntervalTest {
